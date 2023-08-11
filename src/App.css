@@ -1,0 +1,89 @@
+/* styles.css */
+
+.product-image {
+  width: 100px; /* Contoh lebar gambar */
+  height: auto; /* Biarkan ketinggiannya menyesuaikan agar tidak terdistorsi */
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+.point-of-sale {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-list {
+  flex: 1;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap; /* Mengatur item agar pindah ke baris baru jika tidak cukup tempat */
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak teks menjadi vertikal */
+  align-items: center; /* Mengatur elemen gambar dan teks menjadi sejajar vertikal */
+  margin-right: 20px; /* Jarak antara produk */
+  margin-bottom: 20px; /* Jarak vertikal antar baris */
+}
+
+.product-image {
+  width: 100px; /* Lebar gambar */
+  height: auto; /* Ketinggian disesuaikan agar tidak terdistorsi */
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+.product-details {
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak teks menjadi vertikal */
+}
+
+.cart {
+  flex: 1;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 10px 0;
+}
+
+.cart button {
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cart button:hover {
+  background-color: #0056b3;
+}
+.full-width-button {
+  width: 50%;
+  background-color: 	#808080 ;
+}
+.full-width-button2 {
+  width: 100%;
+  background-color: #0056b3;
+}
